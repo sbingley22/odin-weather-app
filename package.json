@@ -1,0 +1,19 @@
+{
+  "name": "odin-weather-app",
+  "version": "1.0.0",
+  "description": "Displays weather in your city using APIs. Live link: https://sbingley22.github.io/odin-weather-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "^3.0.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
