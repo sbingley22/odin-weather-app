@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="content">
+      <div>
+        <form action="" id="form">
+          <label for="location">location</label
+          ><input
+            type="search"
+            name="location"
+            id="location"
+            value="sheffield"
+          />
+          <button type="submit" id="submit-button">Search</button>
+        </form>
+      </div>
+      <div>
+        <button id="deg-cel-button">Farenheit/Celcius</button>
+      </div>
+      <div id="weather-container">
+        <div id="w-location"></div>
+        <div id="w-cloud"></div>
+        <div id="w-temp-label"></div>
+        <div id="w-temp"></div>
+        <div id="w-feels-like-label"></div>
+        <div id="w-feels-like"></div>
+        <div id="w-wind"></div>
+        <div id="w-humidity"></div>
+      </div>
+      <div>
+        <div id="time-taken"></div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
